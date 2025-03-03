@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      My fisrt web page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="navbar">
+         <img src="this_is_the_sign.jpg" alt="Nesta Logo" id="Logo" width="100" height="50">
+    </div>
+    <img  id="Banner" src="this_is_the_sign.jpg" alt="this_is_the_sign" height="240">
+    <h1>Welcome to Pablo</h1>
+
+    <div id="about">
+        <div id="description">
+          <p style="margin-top: 0;">
+            At Pablo we're on a mission to build the world's most highly reputed
+            technical university, and we're building it completely online. We offer
+            several beginner friendly courses that are taken by <b>300,000+</b> registered
+            users.
+            <p>
+              We also offer 2 industry-focused bootcamps
+              <ol>
+                  <li>
+                      <a href="https://careerfoundry.com/en/blog/web-development/11-free-coding-bootcamps/">
+                       Pablo Full Stack Developer Bootcamp
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://careerfoundry.com/en/blog/web-development/11-free-coding-bootcamps/">
+                       Pablo Data Science Bootcamp
+                      </a>
+                  </li>
+              </ol>
+            </p>
+          </p>
+        </div>
+        <div id="team" >
+          <img src="Banner.jpg.jpg" alt="Banner" width="50" id="team_image">
+        </div>
+
+    </div>
+    
+   
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+      <table id="Jobs-table">
+        <tr class="jobs-header-row"> 
+          <th rowspan="2">Job Title</th>
+          <th colspan="2">Location</th>
+          <th rowspan="2">Salary</th>
+          <th rowspan="2">Posted On</th>
+        </tr>
+        <tr class="jobs-data-row">
+           <th>City</th>
+           <th>Country</th>
+        </tr>
+        <tr class="jobs-data-row">
+          <td>Frontend</td>
+          <td>Accra,</td>
+          <td>Ghana</td>
+          <td>$8000</td>
+          <td>22/10/2025</td>
+        </tr>
+        <tr class="jobs-data-row">
+          <td>Backend</td>
+          <td>Takoradi</td>
+          <td>Ghana</td>
+          <td>$8000</td>
+          <td>10/04/2025</td>
+        </tr>
+          <tr class="jobs-data-row">
+            <td>Data Scientist</td>
+            <td colspan="2">Remote</td>
+            <td>$7500</td>
+            <td>10/04/2025</td> 
+        </tr>
+          <tr class="jobs-data-row">
+            <td>Machine Learning Engineer</td>
+            <td colspan="2">Remote</td>
+            <td>$7500</td>
+            <td>10/04/2025</td> 
+        </tr>
+      </table>
+    </div>
+
+    <div id="application">
+      <h2>Submit Your Application</h2>
+
+      <form id="application-form">
+        <div class="form-group">
+          <label for="name"> Full Name</label><br>
+          <input type="text" id="name" name="Full Name" required placeholder="Kodak Black">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="Email Address" required placeholder="kodakB@gmail.com">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">phone</label><br>
+          <input type="tel" id="phone" name="phone" required placeholder="+225502930947">
+        </div>
+
+        <div class="form-group">
+          <label for="Date of Birth">Date Of Birth</label><br>
+          <input type="date" id="DOB" name="DOB" required placeholder="mm/dd/yyyy">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">phone</label><br>
+          <input type="tel" id="phone" name="phone" required placeholder="+225502930947">
+        </div>
+
+        <div class="form-group">
+          <label for="Position">Position Applied for</label><br>
+         <select name="Position Applied" id="Position" required>
+          <option value="">select</option>
+          <option value="Frontend Develope">Frontend Developer</option>
+          <option value="Backend Developer">Backend Developer</option>
+          <option value="Data Scientist">Data Scientist</option>
+          <option value="Machine Learning">Machine Learning</option>
+          
+         </select>
+        </div>
+
+        <div class="form-group">
+          <label for="resume">Upload Resume</label><br>
+          <input type="file" id="resume" name="resume"   accept="pdf,docx.doc" required>
+        </div>
+
+        <div class="form-group">
+          <label for="cover letter">Cover letter</label><br>
+          <textarea id="cover letter" name="cover Letter"  rows="5" placeholder="Explain what makes you fit for the job"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="forms">
+            <input type="checkbox" id="terms" name="terms">
+            I agree to the terms and conditions.
+          </label>
+          
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Submit Application">
+        </div>
+      </form>
+    </div>
+
+      <div id="footer">
+          <ul id="footer-links">
+              <li>
+                  <a href="https://careerfoundry.com/en/blog/web-development/11-free-coding-bootcamps/" target="_blank">
+                      Courses
+                  </a>
+              </li>
+              <li>
+                  <a href="https://careerfoundry.com/en/blog/web-development/11-free-coding-bootcamps/" target="_blank">
+                  Programs
+              </a>
+              </li>
+              <li>
+                 <a href="https://www.youtube.com/watch?v=dX8396ZmSPk&t=1"target="_blank">
+                  YouTube
+                 </a>
+              </li>
+          </ul>
+          <span class="copyright">© 2025_Pablo</span>
+          
+      </div>
+    </div>
+    
+
+  </body>
+
+</html>
